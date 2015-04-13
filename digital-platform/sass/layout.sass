@@ -24,12 +24,11 @@ $break_desktop: 882px
 	color: #888
 
 
-.gg
-	position: relative
-	height: 110px
+
 // header
 header
-	position: fixed
+	position: relative
+	
 	+susy-breakpoint($break_mobile, $mobile)
 		+container
 		background: #FFF
@@ -40,7 +39,7 @@ header
 			height: 80px
 			top: 25px
 			left: 50%
-			margin-left: 0px
+			margin-left: -150px
 		.toplink
 			position: absolute
 			width: 300px
@@ -244,9 +243,9 @@ header
 
 .detail_gellary
 	width: 100%
-	height: 100px
+	height: 50px
 
-	position: fixed
+	position: relative
 
 
 
@@ -394,7 +393,7 @@ header
 		position: absolute
 		width: 50px
 		height: 50px
-		background: #222
+		background: #c0c0c0
 		top: 0
 		right: 0
 		
@@ -405,7 +404,7 @@ header
 		position: absolute
 		width: 50px
 		height: 50px
-		background: #222
+		background: #c0c0c0
 		top: 0
 		right: 0
 
@@ -419,7 +418,7 @@ header
 	+susy-breakpoint($break_mobile, $mobile)
 		+container
 		display: block
-		position: absolute
+		position: fixed
 		width: 180px
 		height: 450px
 		background: #222
@@ -1285,7 +1284,6 @@ footer
 	padding: 20px
 	+susy-breakpoint($break_mobile, $mobile)
 		+container
-		margin-top: 40px
 		.detail_l
 			+span(5)
 			p 
@@ -1335,9 +1333,9 @@ footer
 
 	+susy-breakpoint($break_pad, $pad)
 		+container
-		margin-top: 40px
 		.detail_l
 			+span(5)
+			padding-right: 25px
 			p 
 				+p_size
 				margin-bottom: 20px
@@ -1358,12 +1356,15 @@ footer
 				margin-bottom: 20px
 			
 		.detail_r
-			padding-left: 30px
+			padding-left: 20px
+			padding-right: 20px
+			background: #e0e0e0
+
 			+span(3)
 			.r_box
 				padding: 15px 0
 				margin-bottom: 15px
-				border-bottom: 1px dashed #c0c0c0
+				border-bottom: 1px solid #FFF
 				img
 					display: block
 					width: 80px
@@ -1380,9 +1381,9 @@ footer
 
 	+susy-breakpoint($break_desktop, $desktop)
 		+container
-		margin-top: 40px
 		.detail_l
 			+span(8)
+
 			p 
 				+p_size
 				margin-bottom: 20px
@@ -1403,23 +1404,28 @@ footer
 				margin-bottom: 20px
 			
 		.detail_r
-			padding-left: 30px
+			padding-left: 20px
+			padding-right: 20px
+			background: #e0e0e0
 			+span(4)
 			.r_box
 				padding: 15px 0
 				margin-bottom: 15px
-				border-bottom: 1px dashed #c0c0c0
+				border-bottom: 1px solid #FFF
 				img
 					width: 100px
 					float: left
 					margin-right: 15px
 				p 
 					+p_size
+					margin-left: 118px
 				h6
 					font-size: 18px
 					margin-bottom: 5px
 					line-height: 1.2
 					color: #222
+					margin-left: 118px
+
 
 
 

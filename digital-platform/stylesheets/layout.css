@@ -190,13 +190,8 @@ a {
   text-decoration: none;
 }
 
-.gg {
-  position: relative;
-  height: 110px;
-}
-
 header {
-  position: fixed;
+  position: relative;
 }
 @media (min-width: 0) {
   header {
@@ -217,7 +212,7 @@ header {
     height: 80px;
     top: 25px;
     left: 50%;
-    margin-left: 0px;
+    margin-left: -150px;
   }
   header .toplink {
     position: absolute;
@@ -400,8 +395,8 @@ header {
 
 .detail_gellary {
   width: 100%;
-  height: 100px;
-  position: fixed;
+  height: 50px;
+  position: relative;
 }
 
 @media (min-width: 0) {
@@ -602,7 +597,7 @@ header {
     position: absolute;
     width: 50px;
     height: 50px;
-    background: #222;
+    background: #c0c0c0;
     top: 0;
     right: 0;
   }
@@ -621,7 +616,7 @@ header {
     position: absolute;
     width: 50px;
     height: 50px;
-    background: #222;
+    background: #c0c0c0;
     top: 0;
     right: 0;
   }
@@ -651,7 +646,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    position: absolute;
+    position: fixed;
     width: 180px;
     height: 450px;
     background: #222;
@@ -1984,7 +1979,6 @@ footer {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
   }
   .detail:after {
     content: " ";
@@ -2058,7 +2052,6 @@ footer {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
   }
   .detail:after {
     content: " ";
@@ -2071,6 +2064,7 @@ footer {
     box-sizing: border-box;
     width: 62.5%;
     float: left;
+    padding-right: 25px;
   }
   .detail .detail_l p {
     font-size: 15px;
@@ -2094,7 +2088,9 @@ footer {
     margin-bottom: 20px;
   }
   .detail .detail_r {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #e0e0e0;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2104,7 +2100,7 @@ footer {
   .detail .detail_r .r_box {
     padding: 15px 0;
     margin-bottom: 15px;
-    border-bottom: 1px dashed #c0c0c0;
+    border-bottom: 1px solid #FFF;
   }
   .detail .detail_r .r_box img {
     display: block;
@@ -2130,7 +2126,6 @@ footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
   }
   .detail:after {
     content: " ";
@@ -2167,7 +2162,9 @@ footer {
     margin-bottom: 20px;
   }
   .detail .detail_r {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #e0e0e0;
     width: 31.25%;
     float: left;
     margin-left: 1.0416666667%;
@@ -2176,7 +2173,7 @@ footer {
   .detail .detail_r .r_box {
     padding: 15px 0;
     margin-bottom: 15px;
-    border-bottom: 1px dashed #c0c0c0;
+    border-bottom: 1px solid #FFF;
   }
   .detail .detail_r .r_box img {
     width: 100px;
@@ -2187,12 +2184,14 @@ footer {
     font-size: 15px;
     line-height: 1.5;
     color: #888;
+    margin-left: 118px;
   }
   .detail .detail_r .r_box h6 {
     font-size: 18px;
     margin-bottom: 5px;
     line-height: 1.2;
     color: #222;
+    margin-left: 118px;
   }
 }
 
