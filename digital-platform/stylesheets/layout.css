@@ -2231,4 +2231,9 @@ footer {
   margin-bottom: 5px !important;
 }
 
+.FB_box {
+  border: 1px solid #456;
+  background: #FFF;
+}
+
 /*# sourceMappingURL=layout.css.map */
