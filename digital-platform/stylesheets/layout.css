@@ -1773,7 +1773,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background: #FFF;
     padding: 0;
   }
@@ -1808,6 +1808,34 @@ footer {
     color: #888;
     margin-bottom: 5px;
   }
+}
+
+.order_ha {
+  height: 50px;
+  width: 300px;
+  float: right;
+}
+
+.list_order {
+  height: 40px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 20px;
+  float: right;
+}
+.list_order a {
+  display: block;
+  border-radius: 4px;
+  float: left;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #222;
+  padding: 10px 20px;
+  background: #c1e0f2;
+}
+.list_order a:hover {
+  background: #444;
+  color: #FFF;
 }
 
 @media (min-width: 0) {
@@ -1932,9 +1960,12 @@ footer {
   .gallery_title h2 {
     font-size: 30px;
     line-height: 1.4;
-    margin-bottom: 10px;
     margin-top: 20px;
-    margin-left: 10px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
   }
   .gallery_title .item_group {
     width: 97.9166666667%;
